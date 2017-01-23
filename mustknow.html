@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+    
+<script>
+var count = 0;
+function myFunc() {
+    count++;
+    var table = document.getElementById("myTable");
+    var row = table.insertRow(count);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    var cell5 = row.insertCell(4);
+
+    cell1.innerHTML = document.getElementById("name1").value;
+    cell2.innerHTML = document.getElementById("box1").value;
+    document.getElementById("name1").value = "";
+    document.getElementById("box1").value = "";
+     cell3.innerHTML = '<input type="button" onClick="javascript:removeBtn();" value="Like" />';
+    cell4.innerHTML = '<input type="button" onClick="javascript:removeBtn();" value="Dislike" />';
+    
+    
+}
+  
+</script>    
+</head>
+<body>
+<div class="container">
+    
+<ul class="nav nav-pills center-nav">
+  <li class="home"><a href="index.html">Home</a></li>
+  <li class="active must"><a href="mustknow.html">Must Know</a></li>
+  <li class="health"><a href="health-fit.html">Health /  Fitness</a></li>
+  <li class="education"><a href="ed-tech.html">Education / Technology</a></li>
+  <li class="saftey"><a href="safety-prevention.html">Safety / Prevention</a></li>
+    <img style="width:50px; margin-top:20px;height:50px;" src="hackaz2017.png">
+</ul>
+    
+
+    <!--put videos below-->
+<div>
+    <div class="leftside">
+        <h3>How to Change a Tire</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AT_pPlJTiyE" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="rightside">
+        <h5>Name</h5><textarea type="text" id="name1"></textarea>
+        <br>
+        <h5 >Add A Comment</h5>
+
+        <textarea type="text" rows="4" cols="50" id="box1"></textarea>
+        <button onclick="myFunc()">Submit</button>
+
+
+    </div>
+    <br>
+    <div class="comment">
+        <br>
+        <button data-toggle="collapse" data-target="#demo">See Comments</button>
+
+        <div id="demo" class="collapse">
+            <table id="myTable">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Comment
+                    </th>
+                    <th>
+                        Like
+                    </th>
+                     <th>
+                        DisLike
+                    </th>
+                    
+                    
+                </tr>
+            
+            </table>
+        </div>
+         
+        <script>
+            
+            var = 
+            
+            
+        </script>
+    
+    </div>
+     
+
+</div>   
+
+<hr>
+    
+<h3>How to Start a Fire Without a Match</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AM48gyVEnGY" frameborder="0" allowfullscreen></iframe>
+
+    <h3>How to Parallel Park a Car</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJ-loe3xXLg" frameborder="0" allowfullscreen></iframe>
+
+<h3>How to Jumpstart a Car</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GQaMn_85VQU" frameborder="0" allowfullscreen></iframe>
+
+    <h3>How to Tie a Tie Easy and Fast</h3> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VXTOZiXPCBs" frameborder="0" allowfullscreen></iframe>
+    
+
+    </div>
+    
+</body>
+</html>

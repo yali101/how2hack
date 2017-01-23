@@ -1,0 +1,108 @@
+body{
+    
+    background-color:#084A6C;
+}
+
+
+.home, .must, .health, .fitness, .education, .technology,
+.saftey{
+    border-radius: 5%;
+    margin:20px;
+}
+
+.logo{
+    
+    width:20em;
+    height:20em;
+    margin:auto;
+    display:block;
+    padding-top:20px;
+}
+
+.home{
+    background-color:#00ADC8;      
+}
+.must{
+    background-color:#ADE73A;
+
+}
+.health{
+    background-color:#8CBD01;
+
+}
+.fitness{
+    background-color:#CFF69B;
+
+}
+.education{
+    background-color:#CFF69B;
+
+}
+.technology{
+    background-color:#ADDFAE;
+
+}
+.saftey{
+    background-color:#7CBD9D;
+
+}
+
+li a{
+  color:#084A6C;
+  font-size:1.5em;
+  font-weight:bold;
+  font-family:Helvetica;
+  
+
+}
+
+.active{
+   border-bottom:5px solid white;
+
+}
+
+.videos{
+    margin:0 auto;
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+h2{
+    color:white;
+}
+h3 {
+    color:white;
+    font-weight:bold;
+    font-family:Helvetica;
+}
+
+h4{
+    color:white;
+}
+
+h5{
+    color:white;
+}
+
+
+.leftside{
+    float:left;
+    width:60%;
+    
+}
+.rightside{
+    float:right;
+    margin-top:50px;
+    width:40%;
+}
+
+.comment{
+    display:block;
+    clear:both;
+}
+
+table{
+    color:white;
+    width:100%;
+}
